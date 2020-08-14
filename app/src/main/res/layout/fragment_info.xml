@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#ECECEC"
+    tools:context=".ui.info.InfoFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#3F51B5"
+            >
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="220dp"
+                android:layout_height="150dp"
+                android:src="@drawable/bg_app"
+                android:layout_alignParentEnd="true"
+                />
+            <TextView
+                android:layout_toStartOf="@id/img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COVIDS APPS"
+                android:textColor="@android:color/white"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20sp"
+                android:textSize="30sp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/bg_card"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pusat Bantuan"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="20dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:id="@+id/tv1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jika anda mengalami gejala-gejala covids silahkan hubungi contact dibawah atau pergi kerumah sakit rujukan covids"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:id="@+id/tv2"
+                android:layout_below="@id/tv1"
+                />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_phone"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardCornerRadius="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_below="@id/tv2"
+                android:layout_marginTop="20dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/ic_phone"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:id="@+id/img1"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Houtline"
+                        android:textColor="@android:color/black"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/img1"
+                        android:layout_marginStart="25dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:backgroundTint="@android:color/black"
+                        android:layout_centerVertical="true"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Panggil"
+                            android:textColor="@android:color/white"
+                            android:layout_gravity="center"
+                            />
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_hospital"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardCornerRadius="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_below="@id/cv_phone"
+                android:layout_marginTop="20dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/ic_hospital"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:id="@+id/img2"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rumah Sakit"
+                        android:textColor="@android:color/black"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/img2"
+                        android:layout_marginStart="25dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

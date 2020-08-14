@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">ProjectCovid-19</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="Kota">
+        <item>sumatera barat</item>
+        <item>jawa barat</item>
+        <item>Pontianak</item>
+
+    </string-array>
+    <string-array name="endKota">
+        <item>sumatera_barat</item>
+        <item>jawa_barat</item>
+        <item>Pontianak</item>
+    </string-array>
+
+    <string-array name="kabupaten">
+        <item>Bukit Tinggi</item>
+        <item>Padang Panjang</item>
+        <item>Payakumbuh</item>
+        <item>Sijunjung</item>
+        <item>Tanah Datar</item>
+        <item>Kota Solok</item>
+        <item>Kabupaten Solok</item>
+        <item>Sawahlunto</item>
+        <item>Pariaman</item>
+        <item>Agam</item>
+        <item>Mentawai</item>
+        <item>Padang</item>
+        <item>Padang Pariaman</item>
+        <item>Pasaman Barat</item>
+        <item>Pasaman</item>
+        <item>Lima puluh Kota</item>
+        <item>Dharmasraya</item>
+        <item>Pesisir Selatan</item>
+        <item>Solok Selatan</item>
+    </string-array>
+
+    <array name="kabupaten_sumbar">
+        <item>bukittinggi</item>
+        <item>padang_panjang</item>
+        <item>payakumbuh</item>
+        <item>sijunjung</item>
+        <item>tanah_datar</item>
+        <item>kota_solok</item>
+        <item>kabupaten_solok</item>
+        <item>sawahlunto</item>
+        <item>pariaman</item>
+        <item>agam</item>
+        <item>mentawai</item>
+        <item>padang</item>
+        <item>padang_pariaman</item>
+        <item>pasaman_barat</item>
+        <item>pasaman</item>
+        <item>limapuluh_kota</item>
+        <item>dharmasraya</item>
+        <item>pesisir_selatan</item>
+        <item>solok_selatan</item>
+    </array>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="statistik">Statistik</string>
+    <string name="info">Info</string>
+
+</resources>
